@@ -11,7 +11,6 @@ def encode(word):
             print('All characters must be digits!')
             return None
         encoded_m+=str((int(word[i])+3)%10)
-    print(encoded_m)
     return encoded_m
 
 
